@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -222,7 +222,7 @@
 
 .kaufman {
   overflow: hidden;
-  background-color: #1f1f1f ;
+  background-color: #1f1f1f;
   position: relative;
   padding: 90px 0;
 }
@@ -235,10 +235,6 @@
 .section-subtitle_theme_dark {
   color: white;
   z-index: 1;
-}
-
-.table_theme_dark {
-  //padding-bottom: 90px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -290,10 +286,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
-.footer__column_content_info {}
-
-.footer__column_content_social {}
 
 .logo_place_footer {
   background-image: url("../images/logo_place_footer.svg");
