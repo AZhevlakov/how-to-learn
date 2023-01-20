@@ -224,11 +224,11 @@
   overflow: hidden;
   background-color: #1f1f1f ;
   position: relative;
+  padding: 90px 0;
 }
 
 .section-title_theme_dark {
   color: white;
-  margin-top: 90px;
   z-index: 1;
 }
 
@@ -238,7 +238,7 @@
 }
 
 .table_theme_dark {
-  padding-bottom: 90px;
+  //padding-bottom: 90px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -260,6 +260,7 @@
 
 .kaufman__triangle {
   background-image: url("../images/kaufman-triangle.svg");
+  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -271,6 +272,8 @@
   background-color: #1f1f1f;
   color: white;
   min-height: 350px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__columns {
